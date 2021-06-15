@@ -1,0 +1,20 @@
+<button type="button"(click)="onClick()">Submit</button>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>name</th>
+      <th>age</th>
+      <th>salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let i of allData">
+      <td>{{i.id}}</td>
+      <td>{{i.name}}</td>
+      <td>{{i.age}}</td>
+      <td>{{i.salary}}</td>
+
+    </tr>
+  </tbody>
+</table>
